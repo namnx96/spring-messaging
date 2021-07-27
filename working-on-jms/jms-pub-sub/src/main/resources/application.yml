@@ -1,0 +1,14 @@
+spring:
+  activemq:
+    broker-url: tcp://localhost:61616
+    user: admin
+    password: admin
+
+  jms:
+    pub-sub-domain: true
+
+namnx:
+  jms:
+    topic-rate: rates
+
+
