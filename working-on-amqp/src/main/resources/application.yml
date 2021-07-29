@@ -1,0 +1,12 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
+
+amqp:
+#  exchange: exchange-example
+  queue: queue-example
+  reply-queue: reply-queue
